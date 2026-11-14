@@ -8,41 +8,51 @@
 </head>
 <body>
   <header>
-    <h1>Ciao, sono il nuovo piccolo principe, l'altro è una pippa viziata</h1>
+    <h1>Ciao...</h1>
     <p>Benvenuto sulla mia pagina personale.</p>
   </header>
 
-  <main>
-    <section>
-      <h2>Sono sempre in vacanza, mi piace esplorare nuovi luoghi</h2>
-      <p>mi interesso di vacanze.</p>
-      <figure class="vacation-scene">
-        <img src="files/scena-vacanze.png" alt="Disegno in bianco e nero di un serpente arrotolato, una palma, il sole e un bambino sulla spiaggia.">
-      </figure>
-    </section>
-
-    <section>
-      <h2>Audio</h2>
-      <p>Ascolta i miei brani:</p>
-      <audio controls src="files/brano1.mp3">Il tuo browser non supporta l'audio.</audio>
-    </section>
-
-    <section>
-      <h2>Download</h2>
-      <ul class="downloads">
-        <li>
-          <a href="files/proposta-costituzionale.pdf" download>Proposta costituzionale (PDF)</a>
-        </li>
+  <div class="page-layout">
+    <nav class="sidebar" aria-label="Indice delle pagine">
+      <h2>Indice</h2>
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="scopri-di-piu.html">Scopri di più</a></li>
       </ul>
-    </section>
+    </nav>
 
-    <section>
-      <h2>Contatti</h2>
-      <p>Per contattarmi: <a href="mailto:lorenzo.villa01@gmail.com">lorenzo.villa01@gmail.com</a></p>
-      <p>Se non ti rispondo è perché sono in ferie.</p>
-      <p>Al sabato non rispondo mai alle mail.</p>
-    </section>
-  </main>
+    <main>
+      <section>
+        <h2>Sono sempre in vacanza, mi piace esplorare nuovi luoghi</h2>
+        <p>mi interesso di <a href="https://www.istockphoto.com/it/immagine/tropical-vacation" target="_blank" rel="noopener noreferrer">vacanze</a>.</p>
+        <figure class="vacation-scene">
+          <img src="files/scena-vacanze.png" alt="Disegno in bianco e nero di un serpente arrotolato, una palma, il sole e un bambino sulla spiaggia.">
+        </figure>
+      </section>
+
+      <section>
+        <h2>Audio</h2>
+        <p>Ascolta i miei brani:</p>
+        <audio controls src="files/brano1.mp3">Il tuo browser non supporta l'audio.</audio>
+      </section>
+
+      <section>
+        <h2>Download</h2>
+        <ul class="downloads">
+          <li>
+            <a href="files/proposta-costituzionale.pdf" download>Proposta costituzionale (PDF)</a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Contatti</h2>
+        <p>Per contattarmi: <a href="mailto:lorenzo.villa01@gmail.com">lorenzo.villa01@gmail.com</a></p>
+        <p>Se non ti rispondo è perché sono in ferie.</p>
+        <p>Al sabato non rispondo mai alle mail.</p>
+      </section>
+    </main>
+  </div>
 
   <footer>
     <p>&copy; 2026 LV</p>
